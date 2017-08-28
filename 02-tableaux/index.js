@@ -16,17 +16,19 @@ list[list.length] = 5;
 
 // console.log(list2) // [2, 4, 6...]
 
-const list2 list.map(function(el) {
+const list2 = list.map(function(el) {
     return el * 2;
 });
 
-console.log(list2) // [2, 4, 6...]
+console.log(list2); // [2, 4, 6...]
 
 const filteredList = list2.filter(function(el) {
     return el > 6;
 });
 
-console.log(filteredList) // [6, 8, 10...]
+console.log(filteredList); // [6, 8, 10...]
 
 
 const list3 = list.map(function(el) { return el * 2 }).filter(function(el) { return el > 6 });
+
+console.log(list3);
